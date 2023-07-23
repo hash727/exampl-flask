@@ -4,4 +4,4 @@ application = Flask(__name__)
 
 @application.route('/')
 def hello_world():
-    return " Hello World.!, by HasH from local machine"
+    return "<h1> Hello World.!, by HasH from local machine </h1>"
